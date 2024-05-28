@@ -1,0 +1,44 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.5.2
+2 info using node@v20.13.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:C:\Users\jeel kunj\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\jeel kunj\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 8ms
+16 timing npm:load:configload Completed in 8ms
+17 timing config:load:flatten Completed in 2ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm v
+21 verbose argv "v"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 0ms
+24 verbose logfile logs-max:10 dir:C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T14_30_44_034Z-
+25 verbose logfile C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T14_30_44_034Z-debug-0.log
+26 timing npm:load:logFile Completed in 3ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 36ms
+30 silly logfile start cleaning logs, removing 1 files
+31 timing command:v Completed in 2ms
+32 verbose stack Error: Invalid package.json, no "name" field
+32 verbose stack     at View.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\view.js:94:15)
+32 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli-entry.js:61:5)
+33 verbose cwd C:\Users\jeel kunj
+34 verbose Windows_NT 10.0.22631
+35 verbose node v20.13.1
+36 verbose npm  v10.5.2
+37 error Invalid package.json, no "name" field
+38 verbose exit 1
+39 timing npm Completed in 326ms
+40 verbose code 1
+41 error A complete log of this run can be found in: C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T14_30_44_034Z-debug-0.log

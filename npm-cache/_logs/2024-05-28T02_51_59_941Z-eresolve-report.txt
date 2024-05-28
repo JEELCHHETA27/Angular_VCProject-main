@@ -1,0 +1,48 @@
+'Log files:
+C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T02_51_59_941Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @kolkov/ngx-gallery@2.0.1
+Found: @angular/animations@18.0.0
+node_modules/@angular/animations
+  peerOptional @angular/animations@"18.0.0" from @angular/platform-browser@18.0.0
+  node_modules/@angular/platform-browser
+    peer @angular/platform-browser@"18.0.0" from @angular/forms@18.0.0
+    node_modules/@angular/forms
+      peer @angular/forms@">=14.1.0" from ngx-editor@15.0.1
+      node_modules/ngx-editor
+        ngx-editor@"^15.0.1" from the root project
+      @angular/forms@"^18.0.0" from the root project
+    peer @angular/platform-browser@"18.0.0" from @angular/platform-browser-dynamic@18.0.0
+    node_modules/@angular/platform-browser-dynamic
+      @angular/platform-browser-dynamic@"^18.0.0" from the root project
+    peer @angular/platform-browser@"18.0.0" from @angular/router@18.0.0
+    node_modules/@angular/router
+      @angular/router@"^18.0.0" from the root project
+    peer @angular/platform-browser@">=14.1.0" from ngx-editor@15.0.1
+    node_modules/ngx-editor
+      ngx-editor@"^15.0.1" from the root project
+    peer @angular/platform-browser@">=2.0.0" from ngx-tabset@2.2.0
+    node_modules/ngx-tabset
+      ngx-tabset@"^2.2.0" from the root project
+    peer @angular/platform-browser@">=14.0.0-0" from ngx-toastr@15.2.1
+    node_modules/ngx-toastr
+      ngx-toastr@"^15.2.1" from the root project
+    @angular/platform-browser@"^18.0.0" from the root project
+  @angular/animations@"^18.0.0" from the root project
+
+Could not resolve dependency:
+peer @angular/animations@">=13.0.0 <14" from @kolkov/ngx-gallery@2.0.1
+node_modules/@kolkov/ngx-gallery
+  @kolkov/ngx-gallery@"^2.0.1" from the root project
+
+Conflicting peer dependency: @angular/animations@13.4.0
+node_modules/@angular/animations
+  peer @angular/animations@">=13.0.0 <14" from @kolkov/ngx-gallery@2.0.1
+  node_modules/@kolkov/ngx-gallery
+    @kolkov/ngx-gallery@"^2.0.1" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

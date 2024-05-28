@@ -1,0 +1,18 @@
+'Log files:
+C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T02_51_00_896Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: front-end@0.0.0
+Found: @angular/common@18.0.0
+node_modules/@angular/common
+  @angular/common@"^18.0.0" from the root project
+
+Could not resolve dependency:
+peer @angular/common@">=4.0.0 < 5.0.0" from ngx-ui-switch@1.6.1
+node_modules/ngx-ui-switch
+  ngx-ui-switch@"^1.6.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

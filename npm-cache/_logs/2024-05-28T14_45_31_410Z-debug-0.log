@@ -1,0 +1,115 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.5.2
+2 info using node@v20.13.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\jeel kunj\OneDrive\Desktop\Tatvasoft\Angular_VCProject-main\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 21ms
+11 timing config:load:file:C:\Users\jeel kunj\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\jeel kunj\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 28ms
+17 timing npm:load:configload Completed in 28ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install
+22 verbose argv "install"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T14_45_31_410Z-
+26 verbose logfile C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T14_45_31_410Z-debug-0.log
+27 timing npm:load:logFile Completed in 3ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 66ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile start cleaning logs, removing 3 files
+33 silly logfile done cleaning log files
+34 timing idealTree:init Completed in 437ms
+35 timing idealTree:userRequests Completed in 0ms
+36 silly idealTree buildDeps
+37 timing idealTree:#root Completed in 1ms
+38 silly fetch manifest @angular/compiler@14.2.9
+39 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler 425ms (cache miss)
+40 silly fetch manifest @angular/core@14.2.9
+41 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 148ms (cache miss)
+42 silly fetch manifest rxjs@^6.5.3 || ^7.4.0
+43 http fetch GET 200 https://registry.npmjs.org/rxjs 60ms (cache revalidated)
+44 silly fetch manifest zone.js@~0.11.4
+45 http fetch GET 200 https://registry.npmjs.org/zone.js 898ms (cache miss)
+46 silly fetch manifest @angular/compiler-cli@14.2.9
+47 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler-cli 148ms (cache miss)
+48 silly fetch manifest typescript@>=4.6.2 <4.9
+49 http fetch GET 200 https://registry.npmjs.org/typescript 357ms (cache miss)
+50 timing idealTree Completed in 2672ms
+51 timing command:install Completed in 2681ms
+52 verbose stack Error: could not resolve
+52 verbose stack     at PlaceDep.failPeerConflict (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:503:25)
+52 verbose stack     at new PlaceDep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:157:21)
+52 verbose stack     at #buildDepStep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:940:18)
+52 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:203:7)
+52 verbose stack     at async Promise.all (index 1)
+52 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:154:5)
+52 verbose stack     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:153:5)
+52 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli-entry.js:61:5)
+53 verbose cwd C:\Users\jeel kunj\OneDrive\Desktop\Tatvasoft\Angular_VCProject-main
+54 verbose Windows_NT 10.0.22631
+55 verbose node v20.13.1
+56 verbose npm  v10.5.2
+57 error code ERESOLVE
+58 error ERESOLVE could not resolve
+59 error
+60 error While resolving: [1m@angular/localize[22m@[1m14.2.9[22m
+60 error Found: [1m@angular/compiler[22m@[1m14.2.8[22m[2m[22m
+60 error [2mnode_modules/@angular/compiler[22m
+60 error   [1m@angular/compiler[22m@"[1m^14.2.0[22m" from the root project
+60 error   [35mpeer[39m [1m@angular/compiler[22m@"[1m14.2.8[22m" from [1m@angular/compiler-cli[22m@[1m14.2.8[22m[2m[22m
+60 error   [2mnode_modules/@angular/compiler-cli[22m
+60 error     [33mdev[39m [1m@angular/compiler-cli[22m@"[1m^14.2.0[22m" from the root project
+60 error     [35mpeer[39m [1m@angular/compiler-cli[22m@"[1m^14.0.0[22m" from [1m@angular-devkit/build-angular[22m@[1m14.2.13[22m[2m[22m
+60 error     [2mnode_modules/@angular-devkit/build-angular[22m
+60 error       [33mdev[39m [1m@angular-devkit/build-angular[22m@"[1m^14.2.5[22m" from the root project
+60 error     1 more (@ngtools/webpack)
+60 error   1 more (@angular/platform-browser-dynamic)
+60 error
+60 error Could not resolve dependency:
+60 error [35mpeer[39m [1m@angular/compiler[22m@"[1m14.2.9[22m" from [1m@angular/localize[22m@[1m14.2.9[22m[2m[22m
+60 error [2mnode_modules/@angular/localize[22m
+60 error   [1m@angular/localize[22m@"[1m^14.2.0[22m" from the root project
+60 error   peerOptional [1m@angular/localize[22m@"[1m^14.0.0[22m" from [1m@angular-devkit/build-angular[22m@[1m14.2.13[22m[2m[22m
+60 error   [2mnode_modules/@angular-devkit/build-angular[22m
+60 error     [33mdev[39m [1m@angular-devkit/build-angular[22m@"[1m^14.2.5[22m" from the root project
+60 error   1 more (@ng-bootstrap/ng-bootstrap)
+60 error
+60 error Conflicting peer dependency: [1m@angular/compiler[22m@[1m14.2.9[22m[2m[22m
+60 error [2mnode_modules/@angular/compiler[22m
+60 error   [35mpeer[39m [1m@angular/compiler[22m@"[1m14.2.9[22m" from [1m@angular/localize[22m@[1m14.2.9[22m[2m[22m
+60 error   [2mnode_modules/@angular/localize[22m
+60 error     [1m@angular/localize[22m@"[1m^14.2.0[22m" from the root project
+60 error     peerOptional [1m@angular/localize[22m@"[1m^14.0.0[22m" from [1m@angular-devkit/build-angular[22m@[1m14.2.13[22m[2m[22m
+60 error     [2mnode_modules/@angular-devkit/build-angular[22m
+60 error       [33mdev[39m [1m@angular-devkit/build-angular[22m@"[1m^14.2.5[22m" from the root project
+60 error     1 more (@ng-bootstrap/ng-bootstrap)
+60 error
+60 error Fix the upstream dependency conflict, or retry
+60 error this command with --force or --legacy-peer-deps
+60 error to accept an incorrect (and potentially broken) dependency resolution.
+61 error
+61 error
+61 error For a full report see:
+61 error C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T14_45_31_410Z-eresolve-report.txt
+62 verbose exit 1
+63 timing npm Completed in 3493ms
+64 verbose unfinished npm timer reify 1716907532197
+65 verbose unfinished npm timer reify:loadTrees 1716907532201
+66 verbose unfinished npm timer idealTree:buildDeps 1716907532640
+67 verbose unfinished npm timer idealTree:node_modules/@angular/localize 1716907532641
+68 verbose code 1
+69 error A complete log of this run can be found in: C:\Users\jeel kunj\AppData\Local\npm-cache\_logs\2024-05-28T14_45_31_410Z-debug-0.log
